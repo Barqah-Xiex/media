@@ -5,7 +5,7 @@ echo "contoh : 628979059392"
 read nomor
 echo ""
 echo "masukan kecepatan lebih banyak lebih bagus untuk kesehatan perangkatmu"
-echo "normalnya 1000"
+echo "normalnya 0"
 read kecepatan
 echo ""
 echo "metode ? "
