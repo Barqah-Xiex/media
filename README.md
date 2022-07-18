@@ -1,4 +1,5 @@
 # mining-bx-coin
+salin ini di terminal Linux anda
 ```
 apt update
 apt install git -y
