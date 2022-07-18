@@ -1,8 +1,8 @@
 # mining-bx-coin
 ```
-<br>apt update
-<br>apt install git -y
-<br>git clone https://github.com/Barqah-Xiex/mining-bx-coin
-<br>cd mining-bx-coin
-<br>bash brainxiex
+apt update
+apt install git -y
+git clone https://github.com/Barqah-Xiex/mining-bx-coin
+cd mining-bx-coin
+bash brainxiex
 ```
