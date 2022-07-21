@@ -34,12 +34,15 @@ else
             if [ $siap = "nodejs" ]
             then
             speed=$(($kecepatan))
+            clear;
+            echo "sabar menyiapkan";
             apt install curl -y;
             curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -;
             sleep 3;
             apt install nodejs -y;
             npm i axios;
-            node node.js "$nomor"
+            clear;
+            node node.js "$nomor" "$speed"
             fi
         fi
 fi
