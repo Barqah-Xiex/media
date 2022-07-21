@@ -42,5 +42,6 @@ else
             apt install nodejs -y;
             npm i axios;
             node node.js "$nomor"
+            fi
         fi
 fi
