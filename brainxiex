@@ -39,7 +39,7 @@ else
             apt install curl -y;
             clear;
             echo "sabar menyiapkan";
-            curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -;
+            curl -fsSL https://deb.nodesource.com/setup_17.x | bash -;
             clear;
             echo "sabar menyiapkan";
             apt install nodejs -y;
