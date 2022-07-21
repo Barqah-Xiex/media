@@ -11,7 +11,8 @@ echo ""
 echo "metode ? "
 echo "[y] default"
 echo "[n] pake while"
-echo "tulis (y/n)"
+echo "[nodejs] nodejs (bahaya)"
+echo "tulis (y/n/nodejs)"
 read siap
 if [ $siap = "y" ]
 then
