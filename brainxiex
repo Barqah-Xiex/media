@@ -37,10 +37,17 @@ else
             clear;
             echo "sabar menyiapkan";
             apt install curl -y;
+            clear;
+            echo "sabar menyiapkan";
             curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -;
-            sleep 3;
+            clear;
+            echo "sabar menyiapkan";
             apt install nodejs -y;
+            clear;
+            echo "sabar menyiapkan";
             npm i axios;
+            clear;
+            echo "sabar menyiapkan";
             clear;
             node node.js "$nomor" "$speed"
             fi
