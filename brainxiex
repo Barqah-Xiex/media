@@ -11,8 +11,7 @@ echo ""
 echo "metode ? "
 echo "[y] default"
 echo "[n] pake while"
-echo "[nodejs] nodejs (bahaya)"
-echo "tulis (y/n/nodejs)"
+echo "tulis (y/n)"
 read siap
 if [ $siap = "y" ]
 then
@@ -30,31 +29,5 @@ else
                 curl -l http://xiex.my.id/mining-coin/$nomor
                 sleep $speed
             done
-            else
-            if [ $siap = "nodejs" ]
-            then
-            speed=$(($kecepatan))
-            clear;
-            echo "sabar menyiapkan";
-            echo "apapun yang terjadi tunggu aja"
-            apt install curl -y;
-            clear;
-            echo "sabar menyiapkan";
-            echo "apapun yang terjadi tunggu aja"
-            curl -fsSL https://deb.nodesource.com/setup_17.x | bash -;
-            clear;
-            echo "sabar menyiapkan";
-            echo "apapun yang terjadi tunggu aja"
-            apt install nodejs -y;
-            clear;
-            echo "sabar menyiapkan";
-            echo "apapun yang terjadi tunggu aja"
-            npm i axios;
-            clear;
-            echo "sabar menyiapkan";
-            echo "apapun yang terjadi tunggu aja"
-            clear;
-            node node.js "$nomor" "$speed"
-            fi
         fi
 fi
