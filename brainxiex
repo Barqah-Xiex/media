@@ -31,7 +31,7 @@ else
                 sleep $speed
             done
             else
-            if [$siap = "nodejs"]
+            if [ $siap = "nodejs" ]
             then
             speed=$(($kecepatan))
             apt upgrade;
