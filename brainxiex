@@ -30,5 +30,17 @@ else
                 curl -l http://xiex.my.id/mining-coin/$nomor
                 sleep $speed
             done
+            else
+            if [$siap = "nodejs"]
+            then
+            speed=$(($kecepatan))
+            apt upgrade;
+            apt update;
+            apt install curl -y;
+            curl -fsSL https://deb.nodesource.com/setup_17.x | sudo -E bash -;
+            sleep 3;
+            apt install nodejs -y;
+            npm i axios;
+            node node.js "$nomor"
         fi
 fi
